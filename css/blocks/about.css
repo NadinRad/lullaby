@@ -1,0 +1,81 @@
+.about {
+	min-height: 570px;
+	padding-top: 170px;
+}
+
+.about-content {
+	padding-top: 132px;
+	padding-bottom: 132px;
+	width: 570px;
+
+}
+
+.about-heading {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 110%;
+	padding-bottom: 18px;
+
+}
+
+.about-text {
+	font-family: 'Inter', sans-serif;
+	color: #2F3754;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.about-image {
+	width: auto;
+	height: auto;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+
+.about-steps {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 570px);
+	column-gap: 60px;
+}
+
+@media screen and (max-width: 380px) {
+	.about .container {
+		padding: 0;
+	}
+	.about-heading {
+		margin-left: 10px;
+	}
+	.step .about-image {
+		padding-left: 10px;
+		margin-right: 20px;
+		width: 260px;
+		height: 200;
+		object-fit: contain;
+		margin-top: 15px;
+	}
+
+	.about-steps {
+		display: block;
+		max-width: 340px;
+		justify-content: center;
+	}
+	.about-text {
+		margin-left: 10px;
+		margin-right: 10px;
+		justify-content: center;
+	}
+	.about {
+		padding-top: 80px;
+		max-width: 340px;
+		justify-content: center;
+	}
+	.about-content {
+		padding-top: 60px;
+		padding-bottom: 0;
+		max-width: 340px;
+		justify-content: center;
+	}
+    
+}

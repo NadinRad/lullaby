@@ -1,0 +1,101 @@
+.advantages {
+	padding-top: 190px;
+	margin-bottom: 30px;
+}
+
+
+.bonus-content {
+	text-align: center;
+}
+
+.bonus-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.bonus-heading {
+	font-weight: 600;
+	line-height: 140%;
+	margin-bottom: 10px;
+
+}
+
+.bonus-info {
+	line-height: 140%;
+}
+
+
+.quality-content {
+	text-align: center;
+}
+
+
+.quality-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.quality-heading {
+	font-weight: 600;
+	line-height: 140%;
+	margin-bottom: 10px;
+
+}
+
+.quality-info {
+	line-height: 140%;
+}
+
+.prices-content {
+	text-align: center;
+}
+
+.prices-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.prices-heading {
+	font-weight: 600;
+	line-height: 140%;
+	margin-bottom: 10px;
+
+}
+
+.prices-info {
+	line-height: 140%;
+	margin-bottom: 190px;
+}
+
+.advantages-steps {
+	margin-left: 90px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 230px);
+	column-gap: 180px;
+}
+
+@media screen and (max-width: 380px) {
+	.advantages-steps {
+		margin: 0 auto;
+		max-width: 340px;
+		justify-content: center;
+	}
+	.prices-info {
+		margin-bottom: 100px;
+	}
+	.advantages {
+		padding-top: 100px;
+		max-width: 340px;
+		justify-content: center;
+	}
+	.step1 {
+		margin-bottom: 30px;
+	}
+    
+}
